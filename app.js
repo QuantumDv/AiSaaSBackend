@@ -11,7 +11,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: 'https://captions.freezygig.com', // Adjust to your frontend URL
+  origin: 'https://captions.techiefahad.site', // Adjust to your frontend URL
   credentials: true,
 }));
 app.use(cookieParser());
